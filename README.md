@@ -30,6 +30,7 @@ Agentic evaluation is different from plain LLM evaluation: agents plan, call too
 - [Company-Backed Open Source](#company-backed-open-source)
 - [State-Of-The-Art Practices For Agentic Evaluation](#state-of-the-art-practices-for-agentic-evaluation)
 - [Design Patterns For Agentic Evaluation](#design-patterns-for-agentic-evaluation)
+- [Conference Tutorials And Workshops](#conference-tutorials-and-workshops)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -342,6 +343,28 @@ When designing or choosing a benchmark, understanding these fundamental design a
 | **Scoring Granularity** | End-state matching vs. Trajectory scoring | End-state is pass/fail; trajectory reveals partial progress and failing patterns |
 | **Evaluation Mode** | Offline benchmarking vs. Production feedback loops | Offline is controlled; production feedback captures real deployment challenges but is harder to standardize |
 | **Task Source** | Hand-crafted vs. Programmatic vs. Real-world collected | Hand-crafted is high quality but expensive; programmatic scales but may lack realism; real-world (like SWE-bench) is authentic but noisy |
+
+## Conference Tutorials And Workshops
+
+> Curated conference sessions that are directly about agentic evaluation, or that include evaluation frameworks, benchmark design, safety assessment, and interactive-agent testing as a major component.
+
+### ACM Tutorials
+
+- [**RecSys 2025 — Agentic LLM for Recommender Systems**](https://recsys.acm.org/recsys25/tutorials/) — Tutorial on agentic recommender systems that explicitly includes evaluation frameworks and benchmark design principles for future research and practice.
+- [**RecSys 2025 — Multi Agentic Recommender Systems: Foundations, Design Patterns, and E-Commerce Applications**](https://recsys.acm.org/recsys25/tutorials/) — Tutorial covering multi-agent recommender architectures with explicit attention to evaluation, user-behavior simulation, and production-oriented design patterns.
+- [**RecSys 2025 — Recent Advances in Generative Conversational Recommender Systems**](https://recsys.acm.org/recsys25/tutorials/) — Tutorial on multi-turn conversational recommenders that highlights evaluation issues such as hallucinations, social factors, and ethical considerations.
+- [**CHIIR 2026 — Information Seeking in the Age of Agentic AI**](https://dl.acm.org/doi/10.1145/3786304.3787893) — Hands-on ACM tutorial explicitly framed around leveraging and evaluating information-seeking systems in the age of agentic AI.
+- [**FSE 2025 — AIOpsLab in Action: An Open Platform for AIOps Research**](https://dl.acm.org/doi/10.1145/3696630.3728619) — Software-engineering tutorial introducing AIOpsLab as an open platform and benchmark suite for evaluating AI agents in operational cloud/IT environments.
+
+### PMLR / ICML Workshops
+
+- [**ICML 2025 Workshop on Computer Use Agents**](https://icml.cc/virtual/2025/workshop/39960) — Workshop centered on computer-use agents that explicitly asks how to build robust environments and evaluation metrics for real-world deployment.
+- [**ICML 2025 — OpenAgentSafety: A Comprehensive Framework for Evaluating Real-World AI Agent Safety**](https://icml.cc/virtual/2025/50078) — Invited workshop talk on a simulation framework for evaluating agent safety across 350+ multi-turn tasks spanning benign and adversarial scenarios with real tool use.
+- [**ICML 2025 — Building and Evaluating Generalist Agents**](https://icml.cc/virtual/2025/50096) — Invited workshop talk covering OSWorld and AgentArena as interactive platforms for building and evaluating generalist agents.
+- [**ICML 2025 — AgentSearchBench: Evaluating Agentic Search with Agent-as-a-Judge**](https://icml.cc/virtual/2025/49778) — Workshop paper on rigorous evaluation of frontier agentic search systems with an explicit agent-as-a-judge setup.
+- [**ICML 2025 — ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents**](https://icml.cc/virtual/2025/49784) — Workshop benchmark contribution focused on safety and trustworthiness evaluation for enterprise-style web agents.
+- [**ICML 2025 — OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents**](https://icml.cc/virtual/2025/51535) — Workshop spotlight introducing a benchmark specifically for safety evaluation of computer-use agents.
+- [**ICML 2025 — ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows**](https://icml.cc/virtual/2025/workshop/39960) — Workshop spotlight on evaluating multimodal autonomous agents in realistic scientific workflows rather than toy environments.
 
 ## Contributing
 
