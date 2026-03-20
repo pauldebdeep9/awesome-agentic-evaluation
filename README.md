@@ -40,7 +40,7 @@ Agentic evaluation is different from plain LLM evaluation: agents plan, call too
 This section defines core terms used throughout this guide. Whether you come from software engineering, ML research, product management, or policy, these definitions should help you navigate the landscape.
 
 | Term | Definition |
-|------|------------|
+| --- | --- |
 | **Agent** | An AI system that perceives its environment, makes decisions, and takes actions autonomously over multiple steps to achieve a goal. Unlike a simple chatbot that answers one question at a time, an agent maintains state, plans ahead, and adapts its behavior based on feedback. |
 | **Agentic Evaluation** | The practice of measuring how well an AI agent performs in realistic, interactive settings — not just whether it gets the right answer, but whether it follows the right process, uses tools correctly, recovers from errors, and respects constraints. |
 | **Benchmark** | A standardized test suite with predefined tasks, inputs, expected outputs, and scoring criteria. Benchmarks enable reproducible comparison of different agents or models under controlled conditions. |
@@ -125,7 +125,7 @@ A benchmark is only useful if its results are trustworthy. This section covers w
 **Questions worth asking before trusting a benchmark:**
 
 | Dimension | What to check |
-|-----------|---------------|
+| --- | --- |
 | **Task Validity** | Are tasks representative of real work? Are instructions unambiguous? Could a competent human solve them? |
 | **Evaluator Validity** | Does the scoring function actually measure what it claims? Are there false positives or false negatives? |
 | **Gaming Resistance** | Can the benchmark be solved by shortcuts (e.g., memorization, pattern matching) that don't reflect genuine capability? |
@@ -250,7 +250,7 @@ Understanding who backs which projects helps you gauge long-term maintenance com
 ### Research Labs And Universities
 
 | Organization | Key Contributions |
-|-------------|-------------------|
+| --- | --- |
 | **UC Berkeley RDI** | [AgentBeats](https://rdi.berkeley.edu/agentx-agentbeats.html) competition/platform, [CyberGym](https://github.com/sunblaze-ucb/cybergym) security benchmark |
 | **UC Berkeley (Gorilla/BFCL)** | [Berkeley Function Calling Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html), [Gorilla](https://github.com/ShishirPatil/gorilla) LLM + tools, [GoEX](https://github.com/ShishirPatil/gorilla/tree/main/goex) execution engine |
 | **Stanford CRFM** | [HELM](https://github.com/stanford-crfm/helm) holistic evaluation framework, [Safety](https://crfm.stanford.edu/helm/safety/latest/) / [Capabilities](https://crfm.stanford.edu/helm/capabilities/latest/) / [VHELM](https://crfm.stanford.edu/helm/vhelm/latest/) leaderboards, [AIR-Bench](https://crfm.stanford.edu/helm/air-bench/latest/) |
@@ -262,7 +262,7 @@ Understanding who backs which projects helps you gauge long-term maintenance com
 ### Large Tech And Platform Companies
 
 | Organization | Key Contributions |
-|-------------|-------------------|
+| --- | --- |
 | **OpenAI** | [Evals](https://github.com/openai/evals) framework, [SWE-bench Verified](https://openai.com/index/introducing-swe-bench-verified/) collaboration, [MLE-bench](https://arxiv.org/abs/2410.07095) |
 | **Google DeepMind** | [Dangerous Capability Evaluations](https://github.com/google-deepmind/dangerous-capability-evaluations), frontier safety assessment |
 | **Google** | [A2A (Agent-to-Agent Protocol)](https://github.com/google/A2A) for standardized agent communication |
@@ -276,7 +276,7 @@ Understanding who backs which projects helps you gauge long-term maintenance com
 ### Startups And OSS-Native Platforms
 
 | Organization | Key Contributions |
-|-------------|-------------------|
+| --- | --- |
 | **Arize AI** | [Phoenix](https://github.com/Arize-ai/phoenix) observability and evaluation platform |
 | **Braintrust** | [Braintrust SDK](https://github.com/braintrustdata/braintrust-sdk-python) for tracing and evaluation workflows |
 | **Confident AI** | [DeepEval](https://github.com/confident-ai/deepeval) OSS-first evaluation framework |
@@ -334,7 +334,7 @@ Drawing on lessons from the benchmarks, papers, and competitions listed above, t
 When designing or choosing a benchmark, understanding these fundamental design axes helps clarify what is being measured and what is being missed. A good benchmark makes its stance explicit on each.
 
 | Design Axis | Options | Trade-offs |
-|-------------|---------|------------|
+| --- | --- | --- |
 | **Scoring Target** | Outcome vs. Process | Outcome is simpler but misses how the agent got there; process is richer but harder to define and score |
 | **Environment Dynamics** | Static vs. Dynamic | Static is reproducible but gameable; dynamic resists memorization but is harder to maintain |
 | **Control Model** | Single-control vs. Dual/Multi-control | Single is simpler; dual/multi better reflects real coordination challenges |
