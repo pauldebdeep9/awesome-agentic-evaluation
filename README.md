@@ -240,6 +240,7 @@ These tools help you build, run, and manage evaluations. They provide the infras
 
 Production agent evaluation requires visibility into what agents are actually doing. These tools provide logging, tracing, and analysis capabilities for understanding agent behavior at scale.
 
+- [**agenttrace**](https://github.com/luoyuctl/agenttrace) — Local-first TUI and CLI for evaluating AI coding agent session traces with cost, token, latency, and health regression gates.
 - [**Braintrust Python SDK**](https://github.com/braintrustdata/braintrust-sdk-python) — SDK for logging, tracing, datasets, and evaluations. Supports A/B testing of prompts and model configurations.
 - [**Braintrust TypeScript SDK**](https://github.com/braintrustdata/braintrust-sdk) — JavaScript and TypeScript side of the Braintrust tooling stack.
 - [**Langfuse**](https://github.com/langfuse/langfuse) — Open-source LLM engineering platform for monitoring, evals, prompts, and debugging. Provides production-grade tracing with cost tracking and latency analysis.
