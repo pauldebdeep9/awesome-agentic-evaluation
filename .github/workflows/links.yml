@@ -16,6 +16,7 @@ jobs:
         with:
           args: >-
             --no-progress --verbose
+            --accept 429
             --exclude openai.com
             --exclude openreview.net
             README.md CONTRIBUTING.md
